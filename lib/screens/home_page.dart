@@ -11,8 +11,7 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  List<dynamic> users =
-      []; // bhai yaha pr api ka data hum list me call krwaynge.
+  List<dynamic> users =[]; // bhai yaha pr api ka data hum list me call krwaynge.
   @override
   Widget build(BuildContext context) {
     return Scaffold(
